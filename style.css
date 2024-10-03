@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    top: 0 !important; /* per sovrascrivere stile inserito da google translate */
+}
+h1 {
+    color: #333;
+}
+p {
+    margin-bottom: 15px;
+}
+.skiptranslate{ 
+    display:none; /* nascondo la barra delle traduzioni di google translate */ 
+}
+#language-switcher a{
+    display: inline-block;
+    cursor: pointer;
+}
+#language-switcher a img{
+    width: 30px;
+    height: 20px;
+    border: 1px solid #CCC;
+}
+#language-switcher a.selectedLang img{
+    border-color:#000;
+    border-width: 2px;
+}

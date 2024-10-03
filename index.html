@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina di Esempio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Benvenuto nella nostra pagina di esempio</h1>
-    <p>
-        Il mondo del web è in continua evoluzione e le tecnologie che lo supportano stanno cambiando rapidamente. Con l'avvento di nuovi standard e strumenti, gli sviluppatori web possono ora creare esperienze utente più coinvolgenti e dinamiche. Questa pagina è un esempio di come possiamo utilizzare HTML per strutturare il contenuto e presentarlo in modo chiaro e accessibile.
-    </p>
-    <p>
-        Uno degli aspetti più importanti nello sviluppo web è l'accessibilità. Rendere i siti web accessibili a tutti, inclusi coloro che hanno disabilità, è fondamentale. Ciò significa che i contenuti devono essere facilmente navigabili e leggibili, indipendentemente dalla tecnologia utilizzata per accedervi. Utilizzare correttamente i tag HTML e le tecniche di design può migliorare notevolmente l'esperienza per tutti gli utenti.
-    </p>
-    <p>
-        La responsività è un altro aspetto cruciale. Con l'aumento dell'uso di dispositivi mobili, è fondamentale che le pagine web si adattino a schermi di diverse dimensioni. Utilizzare CSS media queries e design flessibile aiuta a garantire che il contenuto sia visualizzato correttamente su qualsiasi dispositivo. Questo non solo migliora l'estetica, ma anche la funzionalità del sito.
-    </p>
-    <p>
-        Un altro punto da considerare è l'ottimizzazione per i motori di ricerca (SEO). Creare contenuti di qualità, utilizzare parole chiave appropriate e ottimizzare i meta tag sono tutte tecniche che possono migliorare la visibilità di un sito nei risultati di ricerca. Una buona strategia SEO è essenziale per attrarre più visitatori e aumentare la presenza online di un'azienda o di un progetto.
-    </p>
-    <p>
-        Infine, la sicurezza è un tema sempre più rilevante nel mondo del web. Con l'aumento degli attacchi informatici, è fondamentale implementare misure di sicurezza efficaci. Ciò include l'uso di HTTPS, la protezione delle informazioni sensibili degli utenti e l'aggiornamento regolare delle applicazioni e delle librerie utilizzate. Assicurarsi che il sito sia sicuro non solo protegge i dati degli utenti, ma migliora anche la reputazione dell'azienda.
-    </p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina di Esempio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="language-switcher" class="notranslate">
+            <a id="it" onclick="changeLang('it');" title="Italiano" class="selectedLang"><img alt="Italiano" src="https://flagcdn.com/h20/it.png"></a>
+            <a id="en" onclick="changeLang('en');" title="English"><img alt="English" src="https://flagcdn.com/h20/gb.png"></a>
+            <a id="fr" onclick="changeLang('fr');" title="Français"><img alt="Français" src="https://flagcdn.com/h20/fr.png"></a>
+            <a id="es" onclick="changeLang('es');" title="Español"><img alt="Español" src="https://flagcdn.com/h20/es.png"></a>
+            <a id="de" onclick="changeLang('de');" title="Deutsch"><img alt="Deutsch" src="https://flagcdn.com/h20/de.png"></a>
+            <a id="ar" onclick="changeLang('ar');" title="العربية"><img alt="العربية" src="https://flagcdn.com/h20/sa.png"></a>
+            <a id="zh-CN" onclick="changeLang('zh-CN');" title="中文"><img alt="中文" src="https://flagcdn.com/h20/cn.png"></a>
+        </div>
+        <h1>Benvenuto nella nostra pagina di esempio</h1>
+        <p class="notranslate">QUESTO TESTO NON VIENE TRADOTTO PERCHE' L'ELEMENTO IN CUI E' SCRITTO HA LA CLASSE <code>.notranslate</code></p>
+        <p>
+            Il mondo del web è in continua evoluzione e le tecnologie che lo supportano stanno cambiando rapidamente. Con l'avvento di nuovi standard e strumenti, gli sviluppatori web possono ora creare esperienze utente più coinvolgenti e dinamiche. Questa pagina è un esempio di come possiamo utilizzare HTML per strutturare il contenuto e presentarlo in modo chiaro e accessibile.
+        </p>
+        <p>
+            Uno degli aspetti più importanti nello sviluppo web è l'accessibilità. Rendere i siti web accessibili a tutti, inclusi coloro che hanno disabilità, è fondamentale. Ciò significa che i contenuti devono essere facilmente navigabili e leggibili, indipendentemente dalla tecnologia utilizzata per accedervi. Utilizzare correttamente i tag HTML e le tecniche di design può migliorare notevolmente l'esperienza per tutti gli utenti.
+        </p>
+        <p>
+            La responsività è un altro aspetto cruciale. Con l'aumento dell'uso di dispositivi mobili, è fondamentale che le pagine web si adattino a schermi di diverse dimensioni. Utilizzare CSS media queries e design flessibile aiuta a garantire che il contenuto sia visualizzato correttamente su qualsiasi dispositivo. Questo non solo migliora l'estetica, ma anche la funzionalità del sito.
+        </p>
+        <p>
+            Un altro punto da considerare è l'ottimizzazione per i motori di ricerca (SEO). Creare contenuti di qualità, utilizzare parole chiave appropriate e ottimizzare i meta tag sono tutte tecniche che possono migliorare la visibilità di un sito nei risultati di ricerca. Una buona strategia SEO è essenziale per attrarre più visitatori e aumentare la presenza online di un'azienda o di un progetto.
+        </p>
+        <p>
+            Infine, la sicurezza è un tema sempre più rilevante nel mondo del web. Con l'aumento degli attacchi informatici, è fondamentale implementare misure di sicurezza efficaci. Ciò include l'uso di HTTPS, la protezione delle informazioni sensibili degli utenti e l'aggiornamento regolare delle applicazioni e delle librerie utilizzate. Assicurarsi che il sito sia sicuro non solo protegge i dati degli utenti, ma migliora anche la reputazione dell'azienda.
+        </p>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
 </html>
