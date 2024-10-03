@@ -1,0 +1,14 @@
+{
+  "name": "google_translate_js",
+  "version": "1.0.0",
+  "description": "Test di un sistema di traduzione automatico basato su google translate",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server . -p 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
+}
